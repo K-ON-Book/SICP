@@ -12,6 +12,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
             mdbook
+            mitscheme
           ];
           shellHook = ''
             cd tutorial/
